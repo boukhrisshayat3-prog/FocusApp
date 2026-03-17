@@ -1,0 +1,26 @@
+.price-card{
+    background-color: #ffffff;
+    border: 2px solid #e2e8f0;
+    border-radius: 16px;
+    padding: 30px;
+    text-aling: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.price-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25ox rgba(0,0,0,0.1);
+    border-color: #4f46e5; 
+}
+
+.price-title {
+    font-size: 1.5rem;
+    color: #1e293b;
+    margin-bottom: 10px
+}
+
+.price-amount {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #4f46e5;
+}
